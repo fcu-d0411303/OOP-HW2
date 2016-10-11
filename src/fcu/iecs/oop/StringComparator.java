@@ -10,8 +10,8 @@ public class StringComparator {
 		String str1 =  str.next();
 		System.out.println("Enter a string 2 :");
 		String str2 =  str.next();
-		if(str1==str2) System.out.println("The two strings are the same");
-		if(str1!=str2) System.out.println("The two strings are not the same");
+		if(str1.compareToIgnoreCase(str2)==0) System.out.println("The two strings are the same");
+		else System.out.println("The two strings are not the same");
 	}
 
 }
